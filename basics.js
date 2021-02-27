@@ -102,7 +102,7 @@ for (var i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
 
-for (var i of arr) {
+for (var i of arr) {//i is the iterator
   console.log(i); //1 2 3 4 5
 }
 
